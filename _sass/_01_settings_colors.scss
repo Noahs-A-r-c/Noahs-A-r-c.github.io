@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color         : #111;
+$body-font-color    : $text-color;
+$body-bg            : #fdfdfd;
+
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1               : #3c362a; // Taupe Brown
+$ci-2               : #c9d6ea; // Columbia light blue
+$ci-3               : #fdde57; // Naples yellow
+$ci-4               : #cd6b75; // Light Indian Red
+$ci-5               : #d00000; // Engineering Red
+$ci-6               : #A2B47F; // Olivine green
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color      : $ci-1;
+$secondary-color    : $ci-6;
+$alert-color        : $ci-5;
+$success-color      : $ci-6;
+$warning-color      : $ci-4;
+$info-color         : $ci-1;
+
+
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1             : #e7e4e1; // very light taupe-grey
+$grey-2             : #dcd8d4;
+$grey-3             : #d1ccc7;
+$grey-4             : #c6c0bb;
+$grey-5             : #b4ada9;
+$grey-6             : #a69f9b;
+$grey-7             : #98918d;
+$grey-8             : #8a837f;
+$grey-9             : #766f6b;
+$grey-10            : #69615d;
+$grey-11            : #5b5450;
+$grey-12            : #4e4743;
+$grey-13            : #403a37;
+$grey-14            : #332e2b;
+$grey-15            : #262220;
+$grey-16            : #1a1715;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+$topbar-bg-color    : $body-bg;
+$topbar-bg          : $topbar-bg-color;
+
+
+$topbar-dropdown-toggle-color: $ci-1;
+
+$topbar-link-color  : #000;
+$topbar-link-color-hover: #000;
+$topbar-link-color-active: #000;
+$topbar-link-color-active-hover: #000;
+
+$topbar-dropdown-label-color: $ci-2;
+$topbar-dropdown-link-bg-hover: $ci-6;
+
+$topbar-link-bg-active: $ci-6; // Active Navigation Link
+$topbar-link-bg-hover: $ci-6;
+$topbar-link-bg-active-hover: $ci-2;
+
+
+$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
+$topbar-dropdown-link-color: #000;
+$topbar-dropdown-link-bg: $ci-2;
+
+$topbar-menu-link-color-toggled: $ci-1;
+$topbar-menu-icon-color-toggled: $ci-1;
+$topbar-menu-link-color: #000;
+$topbar-menu-icon-color: #000;
+$topbar-menu-link-color-toggled: $ci-6;
+$topbar-menu-icon-color-toggled: $ci-6;
+
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg          : $grey-8;
+$footer-color       : #fff;
+$footer-link-color  : $ci-3;
+
+
+$subfooter-bg       : $grey-13;
+$subfooter-color    : $grey-8;
+$subfooter-link-color: $grey-8;
+
+
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: scale-color($secondary-color, $lightness: 70%);
+
+$highlight-background: #ffffff;
+$highlight-comment: #999988;
+$highlight-error: #a61717;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error-2: #aa0000;
+$highlight-literal-string: #d14;
+$highlight-literal-number: #009999;
+$highlight-name-attribut: #008080;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-subheading: #aaaaaa;
+$highlight-keyword-type: #445588;
+$highlight-name-builtin: #0086B3;
+$highlight-name-class: #445588;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #555555;
+$highlight-name-tag: #000080;
+$highlight-text-whitespace: #bbbbbb;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;

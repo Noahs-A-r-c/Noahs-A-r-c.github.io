@@ -1,0 +1,22 @@
+- title: Start
+  url: "/"
+  side: left
+
+- title: "Reviews"
+  url: "/reviews/"
+  side: left
+
+- title: "Blog and Reporting"
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Photos"
+  url: "/documentation/"
+  side: left
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
