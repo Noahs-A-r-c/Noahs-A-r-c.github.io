@@ -16,7 +16,6 @@ GEM
       uri (>= 0.13.1)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
-    asciidoctor (2.0.23)
     base64 (0.2.0)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
@@ -125,9 +124,6 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
-    jekyll-asciidoc (3.0.1)
-      asciidoctor (>= 1.5.0, < 3.0.0)
-      jekyll (>= 3.0.0)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.2.2)
@@ -271,11 +267,13 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
-    terminal-table (1.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    unicode-display_width (1.8.0)
     uri (1.0.3)
     webrick (1.9.1)
 
@@ -286,7 +284,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-asciidoc
 
 BUNDLED WITH
    2.4.18
